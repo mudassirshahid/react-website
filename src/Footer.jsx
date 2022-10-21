@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <>
           <footer className='text-center footer mb-0'>
-            <p className='mb-0 p-3'>© 2020 Copyright: <NavLink to="/"> Navbar.com </NavLink></p>
+            <p className='mb-0 p-3'>© 2022 Copyright: <NavLink to="/"> Navbar.com </NavLink></p>
           </footer>
         </>
     );
