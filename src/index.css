@@ -1,0 +1,107 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a.active {
+  text-decoration: none;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#header {
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+.navbar.active{
+  background: rgba(202, 211, 211, 0.877)
+}
+
+.navbar .header-nav {
+  color: rgba(0, 183, 255, 0.877);
+  font-weight: bold;
+}
+
+.navbar li a {
+  text-transform: uppercase;
+}
+.navbar li a:hover {
+  color: aqua;
+}
+.navbar-nav .nav-link.active {
+  color: rgb(12 204 235 / 90%) !important;
+  font-weight: bold;
+  border-bottom: 1px solid rgb(12 204 235 / 90%);
+}
+
+.team {
+  font-size: 22px;
+  font-weight: 300;
+}
+.get-started {
+  padding: 6px 28px !important;
+  border-radius: 50px !important;
+}
+.service-cards:hover {
+  transform: scale(1);
+}
+.submit-btn {
+  margin: auto;
+  width: 100%;
+  border-radius: 5px;
+}
+button:focus:not(:focus-visible) {
+  outline: 0;
+  box-shadow: none;
+}
+.card-img-top:hover {
+  background: #00e7ff75;
+  transition: 0.5s;
+}
+
+
+/* ANIMTION FOR HOME IMAGE */
+.img-animation {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;  
+}
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+.img-animation:hover {
+  background: #000000;
+  border: 1px solid #00afff;
+  border-radius: 80px 13px 70px 6px;
+  transition: 0.7s;
+  padding: 1px;
+}
+.footer {
+  background: rgba(202, 211, 211, 0.877);
+}
+
+@media  screen and (max-width: 768.9px) {
+  .img-animation {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+    width: -webkit-fill-available;
+}
+.img-animation:hover {
+  background: #000000;
+  border: 1px solid #00afff;
+  border-radius: 40px 13px 40px 6px;
+  transition: 0.7s;
+  padding: 4px;
+}
+}
+
+
+
