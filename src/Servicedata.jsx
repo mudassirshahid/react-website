@@ -8,15 +8,18 @@ import software from "../src/images/software.png"
 const Servicedata = [
     {
         imgsrc: web,
-        title: "Web development"
+        title: "Web development",
+        btn: "Start Your Project"
     },
     {
         imgsrc: software,
-        title: "Android development"
+        title: "Android development",
+        btn: "Start Your Project"
     },
     {
          imgsrc: app,
-        title: "App development"
+        title: "App development",
+        btn: "Start Your Project"
      },
      
     // {
@@ -25,15 +28,18 @@ const Servicedata = [
     // },
     {
         imgsrc: digital,
-        title: "Digital Marketing"
+        title: "Digital Marketing",
+        btn: "Start Your Project"
     },
     {
         imgsrc: marketing,
-        title: "Marketing"
+        title: "Marketing",
+        btn: "Start Your Project"
     },
     {
         imgsrc: software,
-        title: "Software development"
+        title: "Software development",
+        btn: "Start Your Project"
     },
 
 ];

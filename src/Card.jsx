@@ -15,7 +15,7 @@ const Card = (props) => {
               bulk of the card's content.
             </p>
             <NavLink to="/contact" className="btn btn-primary">
-              Start Your Project
+              {props.btn}
             </NavLink>
           </div>
         </div>
